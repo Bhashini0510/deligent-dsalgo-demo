@@ -1,0 +1,2032 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\rassa\AppData\Local\Temp\testng-eclipse--315947139\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">77 methods, 1 failed,   76 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successful registration&quot;, &quot;Register User to dsportal app&quot;)">runScenario("Successful registration", "Register User to dsportal app")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor verification in each page for valid code&quot;, &quot;Feature for DataStructures Validation&quot;)">runScenario("TryEditor verification in each page for valid code", "Feature for DataStructures Validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Content in Home Page dropdown&quot;, &quot;Home Page feature validation&quot;)">runScenario("Content in Home Page dropdown", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to navigate to Graph using dropdown option&quot;, &quot;Graph Page&quot;)">runScenario("User is able to navigate to Graph using dropdown option", "Graph Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to navigate to Linked List using Get Strated option&quot;, &quot;Linked List Page&quot;)">runScenario("User is able to navigate to Linked List using Get Strated option", "Linked List Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">runScenario("practice link verification", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Get started button clicked without login&quot;, &quot;Home Page feature validation&quot;)">runScenario("Get started button clicked without login", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Drop down selection without login&quot;, &quot;Home Page feature validation&quot;)">runScenario("Drop down selection without login", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">runScenario("practice link verification", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Navigate to login page from Register page&quot;, &quot;Register User to dsportal app&quot;)">runScenario("Navigate to login page from Register page", "Register User to dsportal app")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to try code in Graph page&quot;, &quot;Graph Page&quot;)">runScenario("User is able to try code in Graph page", "Graph Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Content in Home Page&quot;, &quot;Home Page feature validation&quot;)">runScenario("Content in Home Page", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">runScenario("practice link verification", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to practice questions in Queue page&quot;, &quot;Queue Page&quot;)">runScenario("User is able to practice questions in Queue page", "Queue Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor in each links with invalid code&quot;, &quot;Array verification&quot;)">runScenario("TryEditor in each links with invalid code", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to navigate to Stack using dropdown option&quot;, &quot;Stack Page&quot;)">runScenario("User is able to navigate to Stack using dropdown option", "Stack Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to try code in Stack page&quot;, &quot;Stack Page&quot;)">runScenario("User is able to try code in Stack page", "Stack Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Drop down selection without login&quot;, &quot;Home Page feature validation&quot;)">runScenario("Drop down selection without login", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">runScenario("TryEditor link with valid code  in each page", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Drop down selection without login&quot;, &quot;Home Page feature validation&quot;)">runScenario("Drop down selection without login", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">runScenario("TryEditor link with valid code  in each page", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to navigate to Stack using Get Strated option&quot;, &quot;Stack Page&quot;)">runScenario("User is able to navigate to Stack using Get Strated option", "Stack Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Drop down selection without login&quot;, &quot;Home Page feature validation&quot;)">runScenario("Drop down selection without login", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">runScenario("practice link verification", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to practice questions in Tree page&quot;, &quot;Tree Page&quot;)">runScenario("User is able to practice questions in Tree page", "Tree Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Get started button clicked without login&quot;, &quot;Home Page feature validation&quot;)">runScenario("Get started button clicked without login", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Signout validation&quot;, &quot;Register User to dsportal app&quot;)">runScenario("Signout validation", "Register User to dsportal app")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User enters arrays Page&quot;, &quot;Array verification&quot;)">runScenario("User enters arrays Page", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to practice questions in Linked list page&quot;, &quot;Linked List Page&quot;)">runScenario("User is able to practice questions in Linked list page", "Linked List Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to practice questions in Stack page&quot;, &quot;Stack Page&quot;)">runScenario("User is able to practice questions in Stack page", "Stack Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">runScenario("TryEditor link with valid code  in each page", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">runScenario("practice link verification", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Home Page URL&quot;, &quot;Home Page feature validation&quot;)">runScenario("Home Page URL", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to navigate to Queue using dropdown option&quot;, &quot;Queue Page&quot;)">runScenario("User is able to navigate to Queue using dropdown option", "Queue Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to navigate to Queue using Get Strated option&quot;, &quot;Queue Page&quot;)">runScenario("User is able to navigate to Queue using Get Strated option", "Queue Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Get started button clicked without login&quot;, &quot;Home Page feature validation&quot;)">runScenario("Get started button clicked without login", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor in each links with valid code&quot;, &quot;Array verification&quot;)">runScenario("TryEditor in each links with valid code", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to try code in Tree page&quot;, &quot;Tree Page&quot;)">runScenario("User is able to try code in Tree page", "Tree Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User enters invalid username&quot;, &quot;Login feature validation&quot;)">runScenario("User enters invalid username", "Login feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">runScenario("TryEditor link with valid code  in each page", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Get started button clicked without login&quot;, &quot;Home Page feature validation&quot;)">runScenario("Get started button clicked without login", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor in each links with valid code&quot;, &quot;Array verification&quot;)">runScenario("TryEditor in each links with valid code", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor in each links with valid code&quot;, &quot;Array verification&quot;)">runScenario("TryEditor in each links with valid code", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">runScenario("TryEditor link with valid code  in each page", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Get started button clicked without login&quot;, &quot;Home Page feature validation&quot;)">runScenario("Get started button clicked without login", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is not able to register into the dsportalapp&quot;, &quot;Register User to dsportal app&quot;)">runScenario("User is not able to register into the dsportalapp", "Register User to dsportal app")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor in each links for invalid code&quot;, &quot;Feature for DataStructures Validation&quot;)">runScenario("TryEditor in each links for invalid code", "Feature for DataStructures Validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Register link validation from Sign in page&quot;, &quot;Login feature validation&quot;)">runScenario("Register link validation from Sign in page", "Login feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Sign in Page Navigation&quot;, &quot;Home Page feature validation&quot;)">runScenario("Sign in Page Navigation", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">runScenario("practice link verification", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor in each links with valid code&quot;, &quot;Array verification&quot;)">runScenario("TryEditor in each links with valid code", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Drop down selection without login&quot;, &quot;Home Page feature validation&quot;)">runScenario("Drop down selection without login", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor in each links with invalid code&quot;, &quot;Array verification&quot;)">runScenario("TryEditor in each links with invalid code", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">runScenario("TryEditor link with valid code  in each page", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to navigate to Graph using Get Strated option&quot;, &quot;Graph Page&quot;)">runScenario("User is able to navigate to Graph using Get Strated option", "Graph Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Get started button clicked without login&quot;, &quot;Home Page feature validation&quot;)">runScenario("Get started button clicked without login", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to practice questions in Graph page&quot;, &quot;Graph Page&quot;)">runScenario("User is able to practice questions in Graph page", "Graph Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Get started button clicked without login&quot;, &quot;Home Page feature validation&quot;)">runScenario("Get started button clicked without login", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor in each links with invalid code&quot;, &quot;Array verification&quot;)">runScenario("TryEditor in each links with invalid code", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Practice questions validation&quot;, &quot;Feature for DataStructures Validation&quot;)">runScenario("Practice questions validation", "Feature for DataStructures Validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">runScenario("TryEditor link with valid code  in each page", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to navigate to Linked List using dropdown option&quot;, &quot;Linked List Page&quot;)">runScenario("User is able to navigate to Linked List using dropdown option", "Linked List Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">runScenario("practice link verification", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">runScenario("practice link verification", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor verification in each page for invalid code&quot;, &quot;Feature for DataStructures Validation&quot;)">runScenario("TryEditor verification in each page for invalid code", "Feature for DataStructures Validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to navigate to Tree using Get Strated option&quot;, &quot;Tree Page&quot;)">runScenario("User is able to navigate to Tree using Get Strated option", "Tree Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor in each links with invalid code&quot;, &quot;Array verification&quot;)">runScenario("TryEditor in each links with invalid code", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Register Page Navigation&quot;, &quot;Home Page feature validation&quot;)">runScenario("Register Page Navigation", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User enters invalid username from excel&quot;, &quot;Login feature validation&quot;)">runScenario("User enters invalid username from excel", "Login feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor in each links for valid code&quot;, &quot;Feature for DataStructures Validation&quot;)">runScenario("TryEditor in each links for valid code", "Feature for DataStructures Validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to navigate to Tree using dropdown option&quot;, &quot;Tree Page&quot;)">runScenario("User is able to navigate to Tree using dropdown option", "Tree Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">runScenario("TryEditor link with valid code  in each page", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">runScenario("practice link verification", "Array verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User enters Data Structure Page&quot;, &quot;Feature for DataStructures Validation&quot;)">runScenario("User enters Data Structure Page", "Feature for DataStructures Validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Drop down selection without login&quot;, &quot;Home Page feature validation&quot;)">runScenario("Drop down selection without login", "Home Page feature validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to try code in Linked list page&quot;, &quot;Linked List Page&quot;)">runScenario("User is able to try code in Linked list page", "Linked List Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is able to try code in Queue page&quot;, &quot;Queue Page&quot;)">runScenario("User is able to try code in Queue page", "Queue Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful registration&quot;, &quot;Register User to dsportal app&quot;)">
+                  </a> <!-- runScenario("Successful registration", "Register User to dsportal app") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful registration","Register User to dsportal app")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/home] but found [https://dsportalapp.herokuapp.com/register]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at pageObject.RegisterPage.assertUrl(RegisterPage.java:144)
+	at defenitions.Register.navigates_to_home_page(Register.java:54)
+	at ✽.Navigates to home page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/register.feature:11)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor verification in each page for valid code&quot;, &quot;Feature for DataStructures Validation&quot;)">
+                  </a> <!-- runScenario("TryEditor verification in each page for valid code", "Feature for DataStructures Validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor verification in each page for valid code","Feature for DataStructures Validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Content in Home Page dropdown&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Content in Home Page dropdown", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Content in Home Page dropdown","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to navigate to Graph using dropdown option&quot;, &quot;Graph Page&quot;)">
+                  </a> <!-- runScenario("User is able to navigate to Graph using dropdown option", "Graph Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to navigate to Graph using dropdown option","Graph Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to navigate to Linked List using Get Strated option&quot;, &quot;Linked List Page&quot;)">
+                  </a> <!-- runScenario("User is able to navigate to Linked List using Get Strated option", "Linked List Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to navigate to Linked List using Get Strated option","Linked List Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("practice link verification", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("practice link verification","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Get started button clicked without login&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Get started button clicked without login", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Get started button clicked without login","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Drop down selection without login&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Drop down selection without login", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Drop down selection without login","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("practice link verification", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("practice link verification","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Navigate to login page from Register page&quot;, &quot;Register User to dsportal app&quot;)">
+                  </a> <!-- runScenario("Navigate to login page from Register page", "Register User to dsportal app") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Navigate to login page from Register page","Register User to dsportal app")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to try code in Graph page&quot;, &quot;Graph Page&quot;)">
+                  </a> <!-- runScenario("User is able to try code in Graph page", "Graph Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to try code in Graph page","Graph Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Content in Home Page&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Content in Home Page", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Content in Home Page","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("practice link verification", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("practice link verification","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to practice questions in Queue page&quot;, &quot;Queue Page&quot;)">
+                  </a> <!-- runScenario("User is able to practice questions in Queue page", "Queue Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to practice questions in Queue page","Queue Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor in each links with invalid code&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor in each links with invalid code", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor in each links with invalid code","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to navigate to Stack using dropdown option&quot;, &quot;Stack Page&quot;)">
+                  </a> <!-- runScenario("User is able to navigate to Stack using dropdown option", "Stack Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to navigate to Stack using dropdown option","Stack Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to try code in Stack page&quot;, &quot;Stack Page&quot;)">
+                  </a> <!-- runScenario("User is able to try code in Stack page", "Stack Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to try code in Stack page","Stack Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Drop down selection without login&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Drop down selection without login", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Drop down selection without login","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor link with valid code  in each page", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor link with valid code  in each page","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Drop down selection without login&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Drop down selection without login", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Drop down selection without login","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor link with valid code  in each page", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor link with valid code  in each page","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to navigate to Stack using Get Strated option&quot;, &quot;Stack Page&quot;)">
+                  </a> <!-- runScenario("User is able to navigate to Stack using Get Strated option", "Stack Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to navigate to Stack using Get Strated option","Stack Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Drop down selection without login&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Drop down selection without login", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Drop down selection without login","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("practice link verification", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("practice link verification","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to practice questions in Tree page&quot;, &quot;Tree Page&quot;)">
+                  </a> <!-- runScenario("User is able to practice questions in Tree page", "Tree Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to practice questions in Tree page","Tree Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Get started button clicked without login&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Get started button clicked without login", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Get started button clicked without login","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Signout validation&quot;, &quot;Register User to dsportal app&quot;)">
+                  </a> <!-- runScenario("Signout validation", "Register User to dsportal app") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Signout validation","Register User to dsportal app")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User enters arrays Page&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("User enters arrays Page", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User enters arrays Page","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to practice questions in Linked list page&quot;, &quot;Linked List Page&quot;)">
+                  </a> <!-- runScenario("User is able to practice questions in Linked list page", "Linked List Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to practice questions in Linked list page","Linked List Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to practice questions in Stack page&quot;, &quot;Stack Page&quot;)">
+                  </a> <!-- runScenario("User is able to practice questions in Stack page", "Stack Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to practice questions in Stack page","Stack Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor link with valid code  in each page", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor link with valid code  in each page","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("practice link verification", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("practice link verification","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Home Page URL&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Home Page URL", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Home Page URL","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to navigate to Queue using dropdown option&quot;, &quot;Queue Page&quot;)">
+                  </a> <!-- runScenario("User is able to navigate to Queue using dropdown option", "Queue Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to navigate to Queue using dropdown option","Queue Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to navigate to Queue using Get Strated option&quot;, &quot;Queue Page&quot;)">
+                  </a> <!-- runScenario("User is able to navigate to Queue using Get Strated option", "Queue Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to navigate to Queue using Get Strated option","Queue Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Get started button clicked without login&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Get started button clicked without login", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Get started button clicked without login","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor in each links with valid code&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor in each links with valid code", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor in each links with valid code","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to try code in Tree page&quot;, &quot;Tree Page&quot;)">
+                  </a> <!-- runScenario("User is able to try code in Tree page", "Tree Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to try code in Tree page","Tree Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User enters invalid username&quot;, &quot;Login feature validation&quot;)">
+                  </a> <!-- runScenario("User enters invalid username", "Login feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User enters invalid username","Login feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor link with valid code  in each page", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor link with valid code  in each page","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Get started button clicked without login&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Get started button clicked without login", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Get started button clicked without login","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor in each links with valid code&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor in each links with valid code", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor in each links with valid code","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor in each links with valid code&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor in each links with valid code", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor in each links with valid code","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor link with valid code  in each page", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor link with valid code  in each page","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Get started button clicked without login&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Get started button clicked without login", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Get started button clicked without login","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is not able to register into the dsportalapp&quot;, &quot;Register User to dsportal app&quot;)">
+                  </a> <!-- runScenario("User is not able to register into the dsportalapp", "Register User to dsportal app") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is not able to register into the dsportalapp","Register User to dsportal app")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor in each links for invalid code&quot;, &quot;Feature for DataStructures Validation&quot;)">
+                  </a> <!-- runScenario("TryEditor in each links for invalid code", "Feature for DataStructures Validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor in each links for invalid code","Feature for DataStructures Validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Register link validation from Sign in page&quot;, &quot;Login feature validation&quot;)">
+                  </a> <!-- runScenario("Register link validation from Sign in page", "Login feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Register link validation from Sign in page","Login feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Sign in Page Navigation&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Sign in Page Navigation", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Sign in Page Navigation","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("practice link verification", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("practice link verification","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor in each links with valid code&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor in each links with valid code", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor in each links with valid code","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Drop down selection without login&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Drop down selection without login", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Drop down selection without login","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor in each links with invalid code&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor in each links with invalid code", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor in each links with invalid code","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor link with valid code  in each page", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor link with valid code  in each page","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to navigate to Graph using Get Strated option&quot;, &quot;Graph Page&quot;)">
+                  </a> <!-- runScenario("User is able to navigate to Graph using Get Strated option", "Graph Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to navigate to Graph using Get Strated option","Graph Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Get started button clicked without login&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Get started button clicked without login", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Get started button clicked without login","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to practice questions in Graph page&quot;, &quot;Graph Page&quot;)">
+                  </a> <!-- runScenario("User is able to practice questions in Graph page", "Graph Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to practice questions in Graph page","Graph Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Get started button clicked without login&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Get started button clicked without login", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Get started button clicked without login","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor in each links with invalid code&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor in each links with invalid code", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor in each links with invalid code","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Practice questions validation&quot;, &quot;Feature for DataStructures Validation&quot;)">
+                  </a> <!-- runScenario("Practice questions validation", "Feature for DataStructures Validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Practice questions validation","Feature for DataStructures Validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor link with valid code  in each page", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor link with valid code  in each page","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to navigate to Linked List using dropdown option&quot;, &quot;Linked List Page&quot;)">
+                  </a> <!-- runScenario("User is able to navigate to Linked List using dropdown option", "Linked List Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to navigate to Linked List using dropdown option","Linked List Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("practice link verification", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("practice link verification","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("practice link verification", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("practice link verification","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor verification in each page for invalid code&quot;, &quot;Feature for DataStructures Validation&quot;)">
+                  </a> <!-- runScenario("TryEditor verification in each page for invalid code", "Feature for DataStructures Validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor verification in each page for invalid code","Feature for DataStructures Validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to navigate to Tree using Get Strated option&quot;, &quot;Tree Page&quot;)">
+                  </a> <!-- runScenario("User is able to navigate to Tree using Get Strated option", "Tree Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to navigate to Tree using Get Strated option","Tree Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor in each links with invalid code&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor in each links with invalid code", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor in each links with invalid code","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Register Page Navigation&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Register Page Navigation", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Register Page Navigation","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User enters invalid username from excel&quot;, &quot;Login feature validation&quot;)">
+                  </a> <!-- runScenario("User enters invalid username from excel", "Login feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User enters invalid username from excel","Login feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor in each links for valid code&quot;, &quot;Feature for DataStructures Validation&quot;)">
+                  </a> <!-- runScenario("TryEditor in each links for valid code", "Feature for DataStructures Validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor in each links for valid code","Feature for DataStructures Validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to navigate to Tree using dropdown option&quot;, &quot;Tree Page&quot;)">
+                  </a> <!-- runScenario("User is able to navigate to Tree using dropdown option", "Tree Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to navigate to Tree using dropdown option","Tree Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TryEditor link with valid code  in each page&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("TryEditor link with valid code  in each page", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TryEditor link with valid code  in each page","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;practice link verification&quot;, &quot;Array verification&quot;)">
+                  </a> <!-- runScenario("practice link verification", "Array verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("practice link verification","Array verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User enters Data Structure Page&quot;, &quot;Feature for DataStructures Validation&quot;)">
+                  </a> <!-- runScenario("User enters Data Structure Page", "Feature for DataStructures Validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User enters Data Structure Page","Feature for DataStructures Validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Drop down selection without login&quot;, &quot;Home Page feature validation&quot;)">
+                  </a> <!-- runScenario("Drop down selection without login", "Home Page feature validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Drop down selection without login","Home Page feature validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to try code in Linked list page&quot;, &quot;Linked List Page&quot;)">
+                  </a> <!-- runScenario("User is able to try code in Linked list page", "Linked List Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to try code in Linked list page","Linked List Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is able to try code in Queue page&quot;, &quot;Queue Page&quot;)">
+                  </a> <!-- runScenario("User is able to try code in Queue page", "Queue Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is able to try code in Queue page","Queue Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rassa\AppData\Local\Temp\testng-eclipse--315947139\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(77);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'runner.TestRunner')
+data.setCell(0, 3, 28813);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'runner.TestRunner')
+data.setCell(1, 3, 16001);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'runner.TestRunner')
+data.setCell(2, 3, 15909);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'runner.TestRunner')
+data.setCell(3, 3, 15860);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'runner.TestRunner')
+data.setCell(4, 3, 15724);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'runner.TestRunner')
+data.setCell(5, 3, 15609);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'runner.TestRunner')
+data.setCell(6, 3, 15583);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'runner.TestRunner')
+data.setCell(7, 3, 15365);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'runner.TestRunner')
+data.setCell(8, 3, 15316);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'runner.TestRunner')
+data.setCell(9, 3, 15142);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'runner.TestRunner')
+data.setCell(10, 3, 9959);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'runner.TestRunner')
+data.setCell(11, 3, 8353);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'runner.TestRunner')
+data.setCell(12, 3, 6608);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'runner.TestRunner')
+data.setCell(13, 3, 6486);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'runner.TestRunner')
+data.setCell(14, 3, 6443);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'runner.TestRunner')
+data.setCell(15, 3, 6087);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'runner.TestRunner')
+data.setCell(16, 3, 6013);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'runner.TestRunner')
+data.setCell(17, 3, 5982);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'runner.TestRunner')
+data.setCell(18, 3, 5980);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'runner.TestRunner')
+data.setCell(19, 3, 5971);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'runner.TestRunner')
+data.setCell(20, 3, 5915);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'runner.TestRunner')
+data.setCell(21, 3, 5820);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'runner.TestRunner')
+data.setCell(22, 3, 5808);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runScenario')
+data.setCell(23, 2, 'runner.TestRunner')
+data.setCell(23, 3, 5746);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'runScenario')
+data.setCell(24, 2, 'runner.TestRunner')
+data.setCell(24, 3, 5703);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'runScenario')
+data.setCell(25, 2, 'runner.TestRunner')
+data.setCell(25, 3, 5665);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'runScenario')
+data.setCell(26, 2, 'runner.TestRunner')
+data.setCell(26, 3, 5653);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'runScenario')
+data.setCell(27, 2, 'runner.TestRunner')
+data.setCell(27, 3, 5643);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'runScenario')
+data.setCell(28, 2, 'runner.TestRunner')
+data.setCell(28, 3, 5640);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'runScenario')
+data.setCell(29, 2, 'runner.TestRunner')
+data.setCell(29, 3, 5513);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'runScenario')
+data.setCell(30, 2, 'runner.TestRunner')
+data.setCell(30, 3, 5385);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'runScenario')
+data.setCell(31, 2, 'runner.TestRunner')
+data.setCell(31, 3, 5324);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'runScenario')
+data.setCell(32, 2, 'runner.TestRunner')
+data.setCell(32, 3, 5310);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'runScenario')
+data.setCell(33, 2, 'runner.TestRunner')
+data.setCell(33, 3, 5171);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'runScenario')
+data.setCell(34, 2, 'runner.TestRunner')
+data.setCell(34, 3, 4763);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'runScenario')
+data.setCell(35, 2, 'runner.TestRunner')
+data.setCell(35, 3, 4555);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'runScenario')
+data.setCell(36, 2, 'runner.TestRunner')
+data.setCell(36, 3, 3653);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'runScenario')
+data.setCell(37, 2, 'runner.TestRunner')
+data.setCell(37, 3, 3445);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'runScenario')
+data.setCell(38, 2, 'runner.TestRunner')
+data.setCell(38, 3, 3073);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'runScenario')
+data.setCell(39, 2, 'runner.TestRunner')
+data.setCell(39, 3, 2826);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'runScenario')
+data.setCell(40, 2, 'runner.TestRunner')
+data.setCell(40, 3, 2799);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'runScenario')
+data.setCell(41, 2, 'runner.TestRunner')
+data.setCell(41, 3, 2764);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'runScenario')
+data.setCell(42, 2, 'runner.TestRunner')
+data.setCell(42, 3, 2662);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'runScenario')
+data.setCell(43, 2, 'runner.TestRunner')
+data.setCell(43, 3, 2649);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'runScenario')
+data.setCell(44, 2, 'runner.TestRunner')
+data.setCell(44, 3, 2635);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'runScenario')
+data.setCell(45, 2, 'runner.TestRunner')
+data.setCell(45, 3, 2607);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'runScenario')
+data.setCell(46, 2, 'runner.TestRunner')
+data.setCell(46, 3, 2600);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'runScenario')
+data.setCell(47, 2, 'runner.TestRunner')
+data.setCell(47, 3, 2577);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'runScenario')
+data.setCell(48, 2, 'runner.TestRunner')
+data.setCell(48, 3, 2571);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'runScenario')
+data.setCell(49, 2, 'runner.TestRunner')
+data.setCell(49, 3, 2558);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'runScenario')
+data.setCell(50, 2, 'runner.TestRunner')
+data.setCell(50, 3, 2558);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'runScenario')
+data.setCell(51, 2, 'runner.TestRunner')
+data.setCell(51, 3, 2533);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'runScenario')
+data.setCell(52, 2, 'runner.TestRunner')
+data.setCell(52, 3, 2520);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'runScenario')
+data.setCell(53, 2, 'runner.TestRunner')
+data.setCell(53, 3, 2462);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'runScenario')
+data.setCell(54, 2, 'runner.TestRunner')
+data.setCell(54, 3, 2454);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'runScenario')
+data.setCell(55, 2, 'runner.TestRunner')
+data.setCell(55, 3, 2435);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'runScenario')
+data.setCell(56, 2, 'runner.TestRunner')
+data.setCell(56, 3, 2434);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'runScenario')
+data.setCell(57, 2, 'runner.TestRunner')
+data.setCell(57, 3, 2431);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'runScenario')
+data.setCell(58, 2, 'runner.TestRunner')
+data.setCell(58, 3, 2407);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'runScenario')
+data.setCell(59, 2, 'runner.TestRunner')
+data.setCell(59, 3, 2360);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'runScenario')
+data.setCell(60, 2, 'runner.TestRunner')
+data.setCell(60, 3, 2353);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'runScenario')
+data.setCell(61, 2, 'runner.TestRunner')
+data.setCell(61, 3, 2270);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'runScenario')
+data.setCell(62, 2, 'runner.TestRunner')
+data.setCell(62, 3, 2267);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'runScenario')
+data.setCell(63, 2, 'runner.TestRunner')
+data.setCell(63, 3, 2235);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'runScenario')
+data.setCell(64, 2, 'runner.TestRunner')
+data.setCell(64, 3, 2222);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'runScenario')
+data.setCell(65, 2, 'runner.TestRunner')
+data.setCell(65, 3, 2220);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'runScenario')
+data.setCell(66, 2, 'runner.TestRunner')
+data.setCell(66, 3, 2206);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'runScenario')
+data.setCell(67, 2, 'runner.TestRunner')
+data.setCell(67, 3, 2192);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'runScenario')
+data.setCell(68, 2, 'runner.TestRunner')
+data.setCell(68, 3, 2147);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'runScenario')
+data.setCell(69, 2, 'runner.TestRunner')
+data.setCell(69, 3, 2142);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'runScenario')
+data.setCell(70, 2, 'runner.TestRunner')
+data.setCell(70, 3, 2113);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'runScenario')
+data.setCell(71, 2, 'runner.TestRunner')
+data.setCell(71, 3, 2099);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'runScenario')
+data.setCell(72, 2, 'runner.TestRunner')
+data.setCell(72, 3, 2093);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'runScenario')
+data.setCell(73, 2, 'runner.TestRunner')
+data.setCell(73, 3, 2079);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'runScenario')
+data.setCell(74, 2, 'runner.TestRunner')
+data.setCell(74, 3, 1993);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'runScenario')
+data.setCell(75, 2, 'runner.TestRunner')
+data.setCell(75, 3, 1929);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'runScenario')
+data.setCell(76, 2, 'runner.TestRunner')
+data.setCell(76, 3, 1879);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@728a9b59)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User enters arrays Page", "Array verification")</span>
+                <span class="method-start">807 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor link with valid code  in each page", "Array verification")</span>
+                <span class="method-start">5455 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor link with valid code  in each page", "Array verification")</span>
+                <span class="method-start">11284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor link with valid code  in each page", "Array verification")</span>
+                <span class="method-start">16955 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor link with valid code  in each page", "Array verification")</span>
+                <span class="method-start">22704 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor link with valid code  in each page", "Array verification")</span>
+                <span class="method-start">28347 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor link with valid code  in each page", "Array verification")</span>
+                <span class="method-start">33994 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor link with valid code  in each page", "Array verification")</span>
+                <span class="method-start">39170 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor link with valid code  in each page", "Array verification")</span>
+                <span class="method-start">45157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor in each links with valid code", "Array verification")</span>
+                <span class="method-start">50676 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor in each links with valid code", "Array verification")</span>
+                <span class="method-start">65998 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor in each links with valid code", "Array verification")</span>
+                <span class="method-start">81585 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor in each links with valid code", "Array verification")</span>
+                <span class="method-start">97313 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor in each links with invalid code", "Array verification")</span>
+                <span class="method-start">113180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor in each links with invalid code", "Array verification")</span>
+                <span class="method-start">129095 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor in each links with invalid code", "Array verification")</span>
+                <span class="method-start">144464 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor in each links with invalid code", "Array verification")</span>
+                <span class="method-start">159611 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("practice link verification", "Array verification")</span>
+                <span class="method-start">175226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("practice link verification", "Array verification")</span>
+                <span class="method-start">181242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("practice link verification", "Array verification")</span>
+                <span class="method-start">187055 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("practice link verification", "Array verification")</span>
+                <span class="method-start">193147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("practice link verification", "Array verification")</span>
+                <span class="method-start">198462 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("practice link verification", "Array verification")</span>
+                <span class="method-start">204950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("practice link verification", "Array verification")</span>
+                <span class="method-start">210925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("practice link verification", "Array verification")</span>
+                <span class="method-start">216911 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("practice link verification", "Array verification")</span>
+                <span class="method-start">223358 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User enters Data Structure Page", "Feature for DataStructures Validation")</span>
+                <span class="method-start">229013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor verification in each page for valid code", "Feature for DataStructures Validation")</span>
+                <span class="method-start">232091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor verification in each page for invalid code", "Feature for DataStructures Validation")</span>
+                <span class="method-start">237481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor in each links for valid code", "Feature for DataStructures Validation")</span>
+                <span class="method-start">242246 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TryEditor in each links for invalid code", "Feature for DataStructures Validation")</span>
+                <span class="method-start">247954 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Practice questions validation", "Feature for DataStructures Validation")</span>
+                <span class="method-start">253874 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to navigate to Queue using dropdown option", "Queue Page")</span>
+                <span class="method-start">257329 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to navigate to Queue using Get Strated option", "Queue Page")</span>
+                <span class="method-start">259931 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to try code in Queue page", "Queue Page")</span>
+                <span class="method-start">262514 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to practice questions in Queue page", "Queue Page")</span>
+                <span class="method-start">272476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to navigate to Stack using dropdown option", "Stack Page")</span>
+                <span class="method-start">274560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to navigate to Stack using Get Strated option", "Stack Page")</span>
+                <span class="method-start">277171 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to try code in Stack page", "Stack Page")</span>
+                <span class="method-start">279710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to practice questions in Stack page", "Stack Page")</span>
+                <span class="method-start">288070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to navigate to Graph using dropdown option", "Graph Page")</span>
+                <span class="method-start">290167 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to navigate to Graph using Get Strated option", "Graph Page")</span>
+                <span class="method-start">292806 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to try code in Graph page", "Graph Page")</span>
+                <span class="method-start">295329 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to practice questions in Graph page", "Graph Page")</span>
+                <span class="method-start">301940 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Home Page URL", "Home Page feature validation")</span>
+                <span class="method-start">304090 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Content in Home Page", "Home Page feature validation")</span>
+                <span class="method-start">305973 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Content in Home Page dropdown", "Home Page feature validation")</span>
+                <span class="method-start">307906 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Drop down selection without login", "Home Page feature validation")</span>
+                <span class="method-start">310345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Drop down selection without login", "Home Page feature validation")</span>
+                <span class="method-start">312812 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Drop down selection without login", "Home Page feature validation")</span>
+                <span class="method-start">315375 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Drop down selection without login", "Home Page feature validation")</span>
+                <span class="method-start">317834 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Drop down selection without login", "Home Page feature validation")</span>
+                <span class="method-start">320191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Drop down selection without login", "Home Page feature validation")</span>
+                <span class="method-start">322624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Get started button clicked without login", "Home Page feature validation")</span>
+                <span class="method-start">324986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Get started button clicked without login", "Home Page feature validation")</span>
+                <span class="method-start">327396 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Get started button clicked without login", "Home Page feature validation")</span>
+                <span class="method-start">329623 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Get started button clicked without login", "Home Page feature validation")</span>
+                <span class="method-start">331832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Get started button clicked without login", "Home Page feature validation")</span>
+                <span class="method-start">333977 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Get started button clicked without login", "Home Page feature validation")</span>
+                <span class="method-start">336249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Get started button clicked without login", "Home Page feature validation")</span>
+                <span class="method-start">338524 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Register Page Navigation", "Home Page feature validation")</span>
+                <span class="method-start">340746 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Sign in Page Navigation", "Home Page feature validation")</span>
+                <span class="method-start">342744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to navigate to Linked List using dropdown option", "Linked List Page")</span>
+                <span class="method-start">344848 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to navigate to Linked List using Get Strated option", "Linked List Page")</span>
+                <span class="method-start">347676 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to try code in Linked list page", "Linked List Page")</span>
+                <span class="method-start">350443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to practice questions in Linked list page", "Linked List Page")</span>
+                <span class="method-start">366448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Register link validation from Sign in page", "Login feature validation")</span>
+                <span class="method-start">368566 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User enters invalid username", "Login feature validation")</span>
+                <span class="method-start">370804 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User enters invalid username from excel", "Login feature validation")</span>
+                <span class="method-start">373605 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Successful registration", "Register User to dsportal app")</span>
+                <span class="method-start">376044 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is not able to register into the dsportalapp", "Register User to dsportal app")</span>
+                <span class="method-start">378702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Navigate to login page from Register page", "Register User to dsportal app")</span>
+                <span class="method-start">384032 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Signout validation", "Register User to dsportal app")</span>
+                <span class="method-start">386607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to navigate to Tree using dropdown option", "Tree Page")</span>
+                <span class="method-start">390262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to navigate to Tree using Get Strated option", "Tree Page")</span>
+                <span class="method-start">392926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to try code in Tree page", "Tree Page")</span>
+                <span class="method-start">395487 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User is able to practice questions in Tree page", "Tree Page")</span>
+                <span class="method-start">424303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">426500 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
